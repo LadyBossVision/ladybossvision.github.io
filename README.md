@@ -66,3 +66,44 @@
     </footer>
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Learn more about Kelli Malone and her journey.">
+    <title>About | Kelli Malone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>Kelli Malone</h1>
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="#businesses">Businesses</a></li>
+                <li><a href="#ideas">Future Ideas</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="about">
+        <h2>About Me</h2>
+        <p>Hi, I’m Kelli Malone, an entrepreneur with a passion for fashion, creativity, and digital innovation. I’ve launched several businesses, including Exclusive Energy Clothing Co, Lady Boss Vision, and my NFT influencer persona KJ Paris. My goal is to create a space where the spiritual, creative, and business worlds can thrive together.</p>
+    </section>
+
+    <footer>
+        <section id="contact" class="contact">
+            <h3>Contact Me</h3>
+            <p>Interested in working with me? Reach out!</p>
+            <a href="mailto:contact@kellimalone.com">Email Me</a>
+        </section>
+        <p>&copy; 2024 Kelli Malone. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
