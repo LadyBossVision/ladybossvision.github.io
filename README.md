@@ -74,3 +74,156 @@
   <script src="script.js"></script>
 </body>
 </html>
+
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  color: #333;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+.logo img {
+  width: 150px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 18px;
+}
+
+nav ul li a:hover {
+  color: #ff0000;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: #f8f8f8;
+  color: #333;
+}
+
+.hero-content h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+  color: #000;
+}
+
+.hero-content p {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.hero-content video {
+  border: 2px solid #ff0000;
+  border-radius: 10px;
+}
+
+/* Social Media Section */
+.social-media {
+  text-align: center;
+  padding: 40px;
+  background-color: #eaeaea;
+}
+
+.social-media h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #000;
+}
+
+.social-links a {
+  font-size: 32px;
+  margin: 0 10px;
+  color: #333;
+  text-decoration: none;
+}
+
+.social-links a:hover {
+  color: #ff0000;
+}
+
+/* File Upload Section */
+.file-upload {
+  text-align: center;
+  padding: 40px;
+  background-color: #f4f4f4;
+}
+
+.file-upload form {
+  display: inline-block;
+  margin: 20px auto;
+}
+
+#fileInput {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #ff0000;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #cc0000;
+}
+
+#uploadStatus {
+  margin-top: 20px;
+  color: #333;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
+}
+
+footer .social-links a {
+  color: #fff;
+}
+
+footer .social-links a:hover {
+  color: #ff0000;
+}
+
+document.getElementById('uploadForm').addEventListener('submit', function(e) {
+  e.preventDefault();
+  
+  var fileInput = document.getElementById('fileInput');
+  var status = document.getElementById('uploadStatus');
+
+  if (fileInput.files.length > 0) {
+    status.innerHTML = 'File uploaded successfully!';
+    status.style.color = 'green';
+  } else {
+    status.innerHTML = 'Please select a file to upload.';
+    status.style.color = 'red';
+  }
+});
