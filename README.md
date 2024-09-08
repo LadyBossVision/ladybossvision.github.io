@@ -1,50 +1,12 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Welcome to Lady Boss Vision
-
-Empowering Your Creative and Entrepreneurial Journey
-
-Lady Boss Vision is a vibrant platform designed to inspire, enlighten, and empower individuals, particularly creatives and entrepreneurs, to become the greatest versions of themselves. Our mission is to foster a supportive community that nurtures personal growth, innovation, and loving energy.
-
-Our Mission
-
-At Lady Boss Vision, we are committed to:
-
-Empowering Creatives and Entrepreneurs: Providing tailored resources, tools, and inspiration to help you thrive in your creative endeavors and entrepreneurial pursuits.
-
-Inspiring: Offering motivating content and actionable insights that ignite your passion and drive for success.
-
-Enlightening: Sharing wisdom and guidance that help you navigate your journey of self-discovery and growth with clarity and confidence.
-
-Spreading Loving Energy: Cultivating a positive, nurturing environment where kindness and support are integral, allowing you to shine and uplift those around you.
-
-
-Our Values
-
-Empowerment: We believe in the power of self-belief and determination. Our platform is dedicated to helping you unlock your potential and achieve your goals with confidence.
-
-Creativity: We celebrate and support innovative thinking and artistic expression, providing a space where your creative ideas can flourish.
-
-Entrepreneurship: We provide tools and resources to help entrepreneurs turn their visions into reality, fostering growth and success in their ventures.
-
-Integrity: We uphold the highest standards of honesty and transparency in all our interactions and content.
-
-Community: Building a supportive network where everyone feels valued and connected is central to our mission. Together, we grow and succeed.
-
-Inspiration: We highlight the achievements and stories of those making a difference, motivating you to pursue your dreams and impact the world positively.
-
-
-Join Our Vision
-
-Dive into our platform, connect with our community, and embark on your journey to becoming an empowered, enlightened, and loving individual. At Lady Boss Vision, we are here to support and guide you in your creative and entrepreneurial pursuits.
-
-Welcome to a space where your vision and potential are limitless. Welcome to Lady Boss Vision.">
-  <title>Lady Boss Vision</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-</head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,
+initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="css/style.css">
+<head>
 <body>
 
   <!-- Header with Logo and Navigation -->
@@ -107,6 +69,3 @@ Welcome to a space where your vision and potential are limitless. Welcome to Lad
       <a href="https://www.exclusiveenergyclothing.com" target="_blank"><i class="fas fa-store"></i></a>
     </div>
   </footer>
-
-
-
